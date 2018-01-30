@@ -1,0 +1,21 @@
+{
+  "name": "cheese-selector",
+  "version": "1.0.0",
+  "description": "node backend for cheese selector app",
+  "main": "app.js",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.2",
+    "mongoose-findorcreate": "^2.0.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.11"
+  },
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js app.js"
+  }
+}
