@@ -1,5 +1,6 @@
 # cheese-selector api
 node backend for cheese selector app
+deployed link: https://cheese-selector-api.herokuapp.com/cheeses/
 
 ## Getting Started
 ```
