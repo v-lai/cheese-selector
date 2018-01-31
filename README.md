@@ -1,6 +1,9 @@
-# cheese-selector api
-node backend for cheese selector app
-deployed link: https://cheese-selector-api.herokuapp.com/cheeses/
+# Cheese Selector API
+Node Backend for Cheese Selector App
+
+Deployed link: https://cheese-selector-api.herokuapp.com/cheeses/
+
+View Vanilla JS Frontend Code: https://github.com/v-lai/cheese
 
 ## Getting Started
 ```
@@ -16,7 +19,7 @@ $ touch .env
 NODE_ENV=development
 ```
 
-### Starting the Backend Server
+### Starting the Backend Server (MongoDB)
 ```
 open two terminals
 	- in one terminal
@@ -44,5 +47,7 @@ Used to get, add, update, delete cheeses
 * `PATCH a specific cheese by id (/cheeses/:id)`
 * `DELETE a specific cheese by id (/cheeses/:id)`
 
-## Tests
-* TBD
+## To do/possible features to be added later:
+* add more cheeses to db
+* protect routes (possibly use cors library, whitelist certain domains)
+* tests
